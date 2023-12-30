@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using CourseManagmentProject.Data;
 using CourseManagmentProject.Models;
 
-namespace CourseManagmentProject.Pages.Students
+namespace CourseManagmentProject.Pages.Courses
 {
     public class DetailsModel : PageModel
     {
@@ -19,28 +19,23 @@ namespace CourseManagmentProject.Pages.Students
             _context = context;
         }
 
-      public Student Student { get; set; }
+      public Course Course { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
-            if (id == null || _context.Student == null)
+            if (id == null || _context.Course == null)
             {
                 return NotFound();
             }
 
-            var student = await _context.Student
-                .Include(s => s.Enrollments)
-                .ThenInclude(e => e.Course)
-                .AsNoTracking()
-                .FirstOrDefaultAsync(m => m.ID == id);
-
-            if (student == null)
+            var course = await _context.Course.FirstOrDefaultAsync(m => m.CourseID == id);
+            if (course == null)
             {
                 return NotFound();
             }
             else 
             {
-                Student = student;
+                Course = course;
             }
             return Page();
         }

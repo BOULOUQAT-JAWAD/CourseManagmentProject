@@ -28,7 +28,12 @@ namespace CourseManagmentProject.Pages.Teachers
                 return NotFound();
             }
 
-            var teacher = await _context.Teacher.FirstOrDefaultAsync(m => m.ID == id);
+            //var teacher = await _context.Teacher.FirstOrDefaultAsync(m => m.ID == id);
+            var teacher = await _context.Teacher
+                .Include(s => s.Courses)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(m => m.ID == id);
+            
             if (teacher == null)
             {
                 return NotFound();
