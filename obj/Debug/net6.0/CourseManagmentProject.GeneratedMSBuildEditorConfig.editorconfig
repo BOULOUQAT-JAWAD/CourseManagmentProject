@@ -9,97 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CourseManagmentProject
 build_property.RootNamespace = CourseManagmentProject
-build_property.ProjectDir = D:\Jawad\GINF 3\Web Services\Asp.Net\CourseManagmentProject\
+build_property.ProjectDir = C:\Users\hachg\source\repos\WebService\CourseManagmentProject\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Jawad\GINF 3\Web Services\Asp.Net\CourseManagmentProject
+build_property.MSBuildProjectDirectory = C:\Users\hachg\source\repos\WebService\CourseManagmentProject
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Courses/Create.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Courses/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Courses/Delete.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Courses/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Courses/Details.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Courses/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Courses/Edit.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Courses/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Courses/Index.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Courses/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cnNlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Error.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Index.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Privacy.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Students/Create.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Students/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Students/Delete.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Students/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Students/Details.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Students/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Students/Edit.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Students/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Students/Index.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZGVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Teachers/Create.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Teachers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Teachers/Delete.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Teachers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Teachers/Details.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Teachers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Teachers/Edit.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Teachers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Teachers/Index.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Teachers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVhY2hlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/_ViewImports.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/_ViewStart.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Jawad/GINF 3/Web Services/Asp.Net/CourseManagmentProject/Pages/Shared/_Layout.cshtml]
+[C:/Users/hachg/source/repos/WebService/CourseManagmentProject/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gemfusl5qi

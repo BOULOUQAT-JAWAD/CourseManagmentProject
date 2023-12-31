@@ -1,32 +1,69 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using CourseManagmentProject.Data;
+using CourseManagmentProject.Models;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using CourseManagmentProject.Data;
-using CourseManagmentProject.Models;
 
-namespace CourseManagmentProject.Pages.Students
+namespace CourseManagmentProject.Pages.Students;
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly SchoolContext _context;
+    private readonly IConfiguration Configuration;
+
+    public IndexModel(SchoolContext context, IConfiguration configuration)
     {
-        private readonly CourseManagmentProject.Data.SchoolContext _context;
+        _context = context;
+        Configuration = configuration;
+    }
 
-        public IndexModel(CourseManagmentProject.Data.SchoolContext context)
+    public string NameSort { get; set; }
+    public string DateSort { get; set; }
+    public string CurrentFilter { get; set; }
+    public string CurrentSort { get; set; }
+
+    public PaginatedList<Student> Students { get; set; }
+
+    public async Task OnGetAsync(string sortOrder,
+        string currentFilter, string searchString, int? pageIndex)
+    {
+        CurrentSort = sortOrder;
+        NameSort = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+        DateSort = sortOrder == "Date" ? "date_desc" : "Date";
+        if (searchString != null)
         {
-            _context = context;
+            pageIndex = 1;
+        }
+        else
+        {
+            searchString = currentFilter;
         }
 
-        public IList<Student> Student { get;set; } = default!;
+        CurrentFilter = searchString;
 
-        public async Task OnGetAsync()
+        IQueryable<Student> studentsIQ = from s in _context.Student
+                                         select s;
+        if (!String.IsNullOrEmpty(searchString))
         {
-            if (_context.Student != null)
-            {
-                Student = await _context.Student.ToListAsync();
-            }
+            studentsIQ = studentsIQ.Where(s => s.LastName.Contains(searchString)
+                                   || s.FirstMidName.Contains(searchString));
         }
+        switch (sortOrder)
+        {
+            case "name_desc":
+                studentsIQ = studentsIQ.OrderByDescending(s => s.LastName);
+                break;
+            case "Date":
+                studentsIQ = studentsIQ.OrderBy(s => s.EnrollmentDate);
+                break;
+            case "date_desc":
+                studentsIQ = studentsIQ.OrderByDescending(s => s.EnrollmentDate);
+                break;
+            default:
+                studentsIQ = studentsIQ.OrderBy(s => s.LastName);
+                break;
+        }
+
+        var pageSize = Configuration.GetValue("PageSize", 4);
+        Students = await PaginatedList<Student>.CreateAsync(
+            studentsIQ.AsNoTracking(), pageIndex ?? 1, pageSize);
     }
 }

@@ -11053,19 +11053,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\JAWAD\\.nuget\\packages\\": {}
+    "C:\\Users\\hachg\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jawad\\GINF 3\\Web Services\\Asp.Net\\CourseManagmentProject\\CourseManagmentProject.csproj",
+      "projectUniqueName": "C:\\Users\\hachg\\source\\repos\\WebService\\CourseManagmentProject\\CourseManagmentProject.csproj",
       "projectName": "CourseManagmentProject",
-      "projectPath": "D:\\Jawad\\GINF 3\\Web Services\\Asp.Net\\CourseManagmentProject\\CourseManagmentProject.csproj",
-      "packagesPath": "C:\\Users\\JAWAD\\.nuget\\packages\\",
-      "outputPath": "D:\\Jawad\\GINF 3\\Web Services\\Asp.Net\\CourseManagmentProject\\obj\\",
+      "projectPath": "C:\\Users\\hachg\\source\\repos\\WebService\\CourseManagmentProject\\CourseManagmentProject.csproj",
+      "packagesPath": "C:\\Users\\hachg\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hachg\\source\\repos\\WebService\\CourseManagmentProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\JAWAD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hachg\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11073,6 +11073,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11129,7 +11130,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
